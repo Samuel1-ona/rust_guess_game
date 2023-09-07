@@ -5,7 +5,7 @@ use std::cmp::Ordering; // for compering and ordering (less, Greater, and equal)
 use rand::Rng; // defines the methods that random number generator implement
 
 fn main () {
-   
+
     println! ("Guess thee number");
     let secret_number = rand::thread_rng() // The rand::thread_rng will give you the particular ramdom number generator
 
@@ -19,7 +19,7 @@ fn main () {
 
 // storing values with variables ; Let statement is use to create a variable
 
-   let mut guess = String :: new(); // new function create an empty string 
+   let mut guess = String :: new(); // new function create an empty strings
                                     // new function can be found  in  data type its commom to make new values
 
  
