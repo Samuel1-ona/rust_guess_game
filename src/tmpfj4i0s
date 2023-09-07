@@ -1,0 +1,22 @@
+use std::io;
+use rna==
+fn main () {
+    println! ("Guess thee number");
+
+    println! ("please input your guess.");
+
+// storing values with variables ; Let statement is use to create a variable
+
+   let mut guess = String :: new(); // new function create an empty string 
+                                    // new function can be found  in  data type its commom to make new values
+
+ 
+
+io::stdin().read_line(&mut guess)  // .read_line(&mut guess) it is a method to get input for the user
+                                   // it takes whatever the user types in the stin and place it into a string ; it takes the strings as argument note: the string must me mutable
+      .expect("failed to read line");
+
+   println!("You guessed: {}", guess );
+
+   
+}
